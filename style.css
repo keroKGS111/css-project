@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+
 p {
   color: black;
 }
@@ -130,4 +132,21 @@ div ul li#li1 {
   text-align: right;
   direction: rtl;
   text-transform: capitalize;
+}
+.text-font , .arabic{
+  font-family: "Noto Nastaliq Urdu", serif;
+  direction: rtl;
+  margin: auto;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 10px 10px 15px 15px green;
+  font-size: 50px;
+  text-shadow: 5px 5px 3px yellow;
+  text-transform: capitalize;
+  white-space: pre-wrap;
+  border-radius: 20px 5px 20px 5px;
+  border: black 5px dashed;
+  width: fit-content;
+  background-color: blue;
+  text-decoration: underline red double;
 }
