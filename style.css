@@ -133,7 +133,7 @@ div ul li#li1 {
   direction: rtl;
   text-transform: capitalize;
 }
-.text-font , .arabic{
+.text-font {
   font-family: "Noto Nastaliq Urdu", serif;
   direction: rtl;
   margin: auto;
@@ -149,4 +149,11 @@ div ul li#li1 {
   width: fit-content;
   background-color: blue;
   text-decoration: underline red double;
+  
+}
+a{
+  text-decoration: none;
+}
+.texts p:nth-child(1) {
+  font-weight: 900;
 }
