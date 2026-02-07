@@ -149,11 +149,147 @@ div ul li#li1 {
   width: fit-content;
   background-color: blue;
   text-decoration: underline red double;
-  
 }
-a{
+a {
   text-decoration: none;
 }
 .texts p:nth-child(1) {
   font-weight: 900;
+}
+.texts p:nth-child(7) {
+  font: italic small-caps bold 30px sans-serif;
+}
+body {
+  background-color: #767;
+  background-image: url(images/img.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-position: center; */
+}
+.background {
+  background-image: url(images/no-repeat.jpg);
+  border: 5px dashed black;
+  height: 900px;
+  width: 900px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  margin: auto;
+}
+.background-shorthand {
+  border: 5px dotted red;
+  height: 900px;
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: blue url(images/background-shorthand.webp) repeat-x center/contain
+    content-box;
+}
+.gradient {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-image: radial-gradient(red, blue);
+}
+.linear {
+  height: 600px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(214, 62, 62) 40%,
+    yellow 50% 70%,
+    transparent 80%
+  );
+}
+.radial {
+  height: 600px;
+  background-image: radial-gradient(
+    circle 600px at center,
+    blue,
+    green,
+    red,
+    yelloW
+  );
+}
+.container {
+  background: yellow;
+}
+.container .red:nth-child(1) {
+  background: red;
+  width: 150px;
+  height: 150px;
+}
+.container .green:nth-child(2) {
+  background: green;
+  width: 150px;
+  height: 150px;
+}
+.container .blue:nth-child(3) {
+  background: blue;
+  width: 150px;
+  height: 150px;
+}
+
+.float {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.element {
+  text-decoration: line-through double #0f0;
+}
+.relative {
+  background: #ff0;
+  height: 2000px;
+  width: 300px;
+}
+.relative div {
+  height: 50px;
+  width: 50px;
+}
+.reed {
+  background: #f00;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.bluee {
+  background: #00f;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+.greeen {
+  background: #0f0;
+  position: sticky;
+  top: 10px;
+}
+ul,
+ol {
+  text-align: center;
+  font: bold 30px sans-serif;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+ul {
+  list-style: lower-alpha;
+  list-style-position: inside;
+}
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+th{
+ background: #ff00008c; 
+ height: 40px;
+}
+td{
+ background: #9e20208c; 
+height: 20px;
+text-align: center;
 }
